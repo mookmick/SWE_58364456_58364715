@@ -1,0 +1,362 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>double.S Moving</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="favicon.ico">
+
+        <!--Google Font link-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/iconfont.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/bootsnav.css">
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar-menu" data-offset="110">
+
+
+        <!-- Preloader -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                </div>
+            </div>
+        </div><!--End off Preloader -->
+
+
+        <div class="culmn">
+            <!--Home page style-->
+
+
+            <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#brand">
+                            <img src="assets/images/car.png" alt="">
+                            <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
+                        </a>
+
+                    </div>
+                    <!-- End Header Navigation -->
+
+                    <!-- navbar menu -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">Home</a></li>                    
+                            <!--<li><a href="#about">About</a></li>-->
+                            <li><a href="#business">Service</a></li>
+                            <li><a href="#product">Feature</a></li>                          
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div> 
+
+            </nav>
+
+
+
+            <!--Home Sections-->
+            <section id="home" class="home bg-black fix">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="main_home">
+                            <div class="col-md-12">
+                                <div class="hello_slid">
+                                    <div class="slid_item xs-text-center">
+                                        <div class="col-sm-4">
+                                            <!--<img src="assets/images/hello-phone.png" alt="" />-->
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="home_text xs-m-top-30">
+                                                <!--<h2 class="text-white">Welcome to <strong>Made</strong></h2>
+                                                <h1 class="text-white">We Do Business All Of Time</h1>
+                                                <h3 class="text-white"> We Create a <strong>Concept</strong> into The Market </h3>-->
+                                            </div>
+                                        </div>
+                                    </div><!-- End off slid item -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End off row-->
+                </div><!--End off container -->
+            </section> <!--End off Home Sections-->
+
+
+
+            <!--Featured Section-->
+            <section id="features" class="features bg-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_features fix roomy-70">
+                            <div class="col-md-6">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="f_item_icon">
+                                        <i class="icon icon-medical"></i>
+                                    </div>
+                                    <div class="f_item_text">
+                                        <h3>เขตให้บริการ</h3>
+                                        <p>อำเภอเมืองพิษณุโลก</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="f_item_icon">
+                                        <i class="icon icon-clock2"></i>
+                                    </div>
+                                    <div class="f_item_text">
+                                        <h3>ประเภทรถที่ให้บริการ</h3>
+                                        <p>- รถมอเตอร์ไซต์</p>
+                                        <p>- รถกระบะมีตู้</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="features_item m-top-70">
+                                    <div class="f_item_icon">
+                                        <i class="icon icon-adjustments"></i>
+                                    </div>
+                                    <div class="f_item_text">
+                                        <h3>ราคาเริ่มต้น</h3>
+                                        <p>- รถมอเตอร์ไซต์ เริ่มต้น ฿30 + ฿8 ต่อกิโลเมตร</p>
+                                        <p>- รถกระบะมีตู้ เริ่มต้น ฿300 + ฿15 ต่อกโลเมตร</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="features_item m-top-70">
+                                    <div class="f_item_icon">
+                                        <i class="icon icon-tablet2"></i>
+                                    </div>
+                                    <div class="f_item_text">
+                                        <h3>รูปแบบการชำระเงิน</h3>
+                                        <p>- ชำระเงินก่อนทำการส่งสินค้า</p>
+                                        <p>- ชำระเงินปลายทาง</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off Featured Section-->
+
+
+
+            <!--Business Section-->
+            <section id="business" class="business bg-blue roomy-70">
+                <div class="business_overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="main_business">
+                            <div class="col-md-4">                                                                       
+                                    <p>จุดรับ</p>                                                                                             
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">                                           
+                                    <p>จุดส่ง</p>                                                                                              
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">  
+                            </div> 
+                             
+                            <div class="col-md-4">
+                                    <p>ชื่อผู้ส่ง</p>                                                                                             
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">                                           
+                                    <p>เบอร์โทรผู้ส่ง</p>                                                                                              
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">
+                                    <p>ที่อยู่ผู้ส่ง</p>                                                                                              
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">
+                            </div>
+
+                            <div class="col-md-4">
+                                    <p>ชื่อผู้รับ</p>                                                                                             
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">                                           
+                                    <p>เบอร์โทรผู้รับ</p>                                                                                              
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">
+                                    <p>ที่อยู่ผู้รับ</p>                                                                                              
+                                    <input class="form-control mr-sm-2" type="text" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End off Business section -->    
+            
+            
+
+            <!--product section-->
+            <section id="product" class="product bg-grey fix">
+                <div class="container">
+                    <div class="main_product roomy-80">
+                        <div class="row">
+                        <div class="head_title text-center fix">
+                            <h4 class="text-uppercase text-black">ลักษณะของที่จะส่ง</h4>
+                        </div>                       
+                                <div class="col-sm-2">
+                                    <h6>น้ำหนัก</h6>
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ไม่เกิน 3 kg.  </a>    
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > 10-15 kg. </a>                                                      
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > 30-50 kg. </a>
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > 50-80 kg. </a>   
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > 80 kg. ขึ้นไป </a>   
+                                </div>
+
+                                <div class="col-sm-5">
+                                    <h6>บรรจุภัณฑ์</h6>
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ขนาดไม่เกิน 50*50*50 cm.  </a>    
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ความกว้างตั้งแต่ 50-80 cm. ยาวไม่เกิน 50 </a>                                                      
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ความกว้างตั้งแต่ 50-80 cm. ยาวตั้งแต่ 50-100 </a>
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ความกว้างตั้งแต่ 80-150 cm. ยาวตั้งแต่ 100-150 </a>    
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <h6>อุณหภูมิ(การรักษาอุณหภูมิ)</h6>
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ไม่ต้องรักษาอุณหภูมิ </a>    
+                                    <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > รักษาอุณหภูมิต่ำกว่า 0 องศาเซลเซียส </a>                                                                                                    
+                                </div>
+
+                                <div class="business_btn m-top-50" style = "padding: 250px 500px">
+                                    <a href="feature.html" class="btn btn-default m-top-20">ถัดไป</a>
+                                </div>                                                                                                                             
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off Product section -->
+
+
+
+            <!---product1 section-->
+            <section id="product1" class="product1 bg-grey fix">
+                <div class="container">
+                    <div class="main_product1 roomy-80">
+                        <div class="row">
+                                <div class="head_title text-center fix">
+                                    <h4 class="text-uppercase text-black">ลักษณะของที่จะส่ง</h4>
+                                </div> 
+                                    <div class="col-sm-3">
+                                        <h6>ผลิตภัณฑ์ที่ต้องวัดการกระแทก</h6>
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > แก้ว , วัสดุแตกหักง่าย </a>    
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > พลาสติกหุ้มฉนวนกันกระแทก </a>                                                        
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > อุปกรณ์อิเล็คทรอนิค </a>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <h6>ระยะทาง</h6>
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ไม่เกิน 10 km. </a>    
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > 10-30 km. </a>                                                        
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > 30 km. ขึ้นไป </a>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <h6>จำกัดเวลา</h6>
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > ไม่เกิน 30 นาที </a>    
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > 30 นาที - 2 ชั่วโมง </a>           
+                                    </div>
+
+                                    <div class="col-sm-3">                                                        
+                                        <h6>บริการเสริม</h6>
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > คนขับยกของ 150 </a>  
+                                        <a class="navbar-brand"><input type ='CHECKBOX' name = "ONE" value ="value1" > คนช่วย+คนขับยกของ 150 บาท </a>                                                            
+                                    </div>    
+
+                                    <div class="business_btn m-top-50" style = "padding: 250px 500px">
+                                        <a href="page2.html" class="btn btn-default m-top-20">ตกลง</a>
+                                    </div>    
+                        </div> 
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off Product1 section -->
+
+
+            <footer id="contact" class="footer action-lage bg-black p-top-80">
+                <!--<div class="action-lage"></div>-->
+                <div class="container">
+                    <div class="row">
+                        <div class="widget_area">
+                            <div class="col-md-3">
+                                <div class="widget_item widget_about">
+                                
+                                    <div class="widget_ab_item m-top-30">
+                                        <div class="item_icon"><i class="fa fa-location-arrow"></i></div>
+                                        <div class="widget_ab_item_text">
+                                            <h6 class="text-white">Location</h6>
+                                            <p>
+                                                Naresuan University</p>
+                                        </div>
+                                    </div>
+                                    <div class="widget_ab_item m-top-30">
+                                        <div class="item_icon"><i class="fa fa-phone"></i></div>
+                                        <div class="widget_ab_item_text">
+                                            <h6 class="text-white">Phone :</h6>
+                                            <p>080-1231234</p>
+                                        </div>
+                                    </div>
+                                    <div class="widget_ab_item m-top-30">
+                                        <div class="item_icon"><i class="fa fa-envelope-o"></i></div>
+                                        <div class="widget_ab_item_text">
+                                            <h6 class="text-white">Email Address :</h6>
+                                            <p>forworkwithbuddy@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div><!-- End off widget item -->
+                            </div><!-- End off col-md-3 -->                     
+                                <div class="list-inline m-top-30" style = "padding: 250px 50px"></ul>>
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i class="fa fa-behance"></i></a></li>
+                                    <li><a href=""><i class="fa fa-dribbble"></i></a>  - </li>
+                                </div>                              
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+        </div>
+
+        <!-- JS includes -->
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="assets/js/bootsnav.js"></script>
+
+
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        ]
+    </body>
+</html>
